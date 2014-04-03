@@ -1,0 +1,10 @@
+<map id="org.qtproject.qt5.android.bindings.QtActivity.startApp" name="org.qtproject.qt5.android.bindings.QtActivity.startApp">
+<area shape="rect" id="node3" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a38024ae043417efcc1b79aec389042b0" title="org.qtproject.qt5.android.bindings.\lQtActivity.extractBundledPluginsAndImports" alt="" coords="273,74,553,121"/>
+<area shape="rect" id="node12" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa72e2a52d4667eac2de67b9148c5332b" title="org.qtproject.qt5.android.bindings.\lQtActivity.loadApplication" alt="" coords="304,203,523,250"/>
+<area shape="rect" id="node14" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#abbade298e1a223acb5900e1ddd6ace74" title="org.qtproject.qt5.android.bindings.\lQtActivity.downloadUpgradeMinistro" alt="" coords="603,143,837,190"/>
+<area shape="rect" id="node16" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a5e703f667905e2a0c11117197560d4e4" title="org.qtproject.qt5.android.bindings.\lQtActivity.ministroNotFound" alt="" coords="885,175,1104,222"/>
+<area shape="rect" id="node5" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#abfd0a80966d866beca1cfc2bc0b07b29" title="org.qtproject.qt5.android.bindings.\lQtActivity.createBundledBinary" alt="" coords="611,5,829,51"/>
+<area shape="rect" id="node9" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a59050af1b747e4f7e5d68f5627ae94c9" title="org.qtproject.qt5.android.bindings.\lQtActivity.copyAsset" alt="" coords="611,74,829,121"/>
+<area shape="rect" id="node7" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a24e86e92cae2290e764995e64550f387" title="org.qtproject.qt5.android.bindings.\lQtActivity.copyFile" alt="" coords="885,42,1104,89"/>
+<area shape="rect" id="node18" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_application.html#ac47f64e358a18d99b3f41756fe4a7849" title="org.qtproject.qt5.android.bindings.\lQtApplication.setQtActivityDelegate" alt="" coords="604,213,836,259"/>
+</map>

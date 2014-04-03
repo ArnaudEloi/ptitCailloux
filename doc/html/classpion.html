@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>Petit Cailloux: Référence de la classe pion</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="P2g.png"/></td>
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Petit Cailloux
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">jeu du carré chinois</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="namespaces.html"><span>Espaces&#160;de&#160;nommage</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Liste&#160;des&#160;classes</span></a></li>
+      <li><a href="classes.html"><span>Index&#160;des&#160;classes</span></a></li>
+      <li><a href="inherits.html"><span>Hiérarchie&#160;des&#160;classes</span></a></li>
+      <li><a href="functions.html"><span>Membres&#160;de&#160;classe</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classpion.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Espaces de nommage</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Fonctions membres publiques</a> &#124;
+<a href="#pri-methods">Fonctions membres privées</a> &#124;
+<a href="#pri-attribs">Attributs privés</a> &#124;
+<a href="classpion-members.html">Liste de tous les membres</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence de la classe pion</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="pion_8h_source.html">pion.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
+Fonctions membres publiques</h2></td></tr>
+<tr class="memitem:af29e3925ea85d612aea7e659254f401b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#af29e3925ea85d612aea7e659254f401b">pion</a> (QWidget *parent=0, int noPion=0, int x=50, int y=50)</td></tr>
+<tr class="memdesc:af29e3925ea85d612aea7e659254f401b"><td class="mdescLeft">&#160;</td><td class="mdescRight">pion  <a href="#af29e3925ea85d612aea7e659254f401b"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-methods"></a>
+Fonctions membres privées</h2></td></tr>
+<tr class="memitem:a14da0a4cb182706ced199d4f8d61dcd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a14da0a4cb182706ced199d4f8d61dcd9">droits</a> (int indice)</td></tr>
+<tr class="memdesc:a14da0a4cb182706ced199d4f8d61dcd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">droits  <a href="#a14da0a4cb182706ced199d4f8d61dcd9"></a><br/></td></tr>
+<tr class="memitem:a28e0a7d35ac53067f27a00152f221b60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a28e0a7d35ac53067f27a00152f221b60">mouseMoveEvent</a> (QMouseEvent *ev)</td></tr>
+<tr class="memdesc:a28e0a7d35ac53067f27a00152f221b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">mouseMoveEvent  <a href="#a28e0a7d35ac53067f27a00152f221b60"></a><br/></td></tr>
+<tr class="memitem:a44680c9f0758100216aaf61f696f8cc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a44680c9f0758100216aaf61f696f8cc5">mousePressEvent</a> (QMouseEvent *ev)</td></tr>
+<tr class="memdesc:a44680c9f0758100216aaf61f696f8cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">mousePressEvent  <a href="#a44680c9f0758100216aaf61f696f8cc5"></a><br/></td></tr>
+<tr class="memitem:a3d85aab7adc10d4a9cb7326c7a5e3466"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a3d85aab7adc10d4a9cb7326c7a5e3466">mouseReleaseEvent</a> (QMouseEvent *ev)</td></tr>
+<tr class="memdesc:a3d85aab7adc10d4a9cb7326c7a5e3466"><td class="mdescLeft">&#160;</td><td class="mdescRight">mouseReleaseEvent  <a href="#a3d85aab7adc10d4a9cb7326c7a5e3466"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pri-attribs"></a>
+Attributs privés</h2></td></tr>
+<tr class="memitem:a99fe9f6343fa8261506fb5140ffd7dfa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a99fe9f6343fa8261506fb5140ffd7dfa">aLeDroit</a></td></tr>
+<tr class="memdesc:a99fe9f6343fa8261506fb5140ffd7dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">aLeDroit  <a href="#a99fe9f6343fa8261506fb5140ffd7dfa"></a><br/></td></tr>
+<tr class="memitem:a7642cd4d43560d2fd90c33aa566d2526"><td class="memItemLeft" align="right" valign="top">QPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a7642cd4d43560d2fd90c33aa566d2526">bonPoint</a></td></tr>
+<tr class="memdesc:a7642cd4d43560d2fd90c33aa566d2526"><td class="mdescLeft">&#160;</td><td class="mdescRight">bonPoint  <a href="#a7642cd4d43560d2fd90c33aa566d2526"></a><br/></td></tr>
+<tr class="memitem:a432598bfa12510f56629bb8e4e44a6d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a432598bfa12510f56629bb8e4e44a6d1">h</a> = 40</td></tr>
+<tr class="memdesc:a432598bfa12510f56629bb8e4e44a6d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">h  <a href="#a432598bfa12510f56629bb8e4e44a6d1"></a><br/></td></tr>
+<tr class="memitem:ac953cdf61df0ff4b445b278e3be2bffc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#ac953cdf61df0ff4b445b278e3be2bffc">oldX</a></td></tr>
+<tr class="memdesc:ac953cdf61df0ff4b445b278e3be2bffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">oldX  <a href="#ac953cdf61df0ff4b445b278e3be2bffc"></a><br/></td></tr>
+<tr class="memitem:a842a7ce1b21307287e434dd9d598eaee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a842a7ce1b21307287e434dd9d598eaee">oldY</a></td></tr>
+<tr class="memdesc:a842a7ce1b21307287e434dd9d598eaee"><td class="mdescLeft">&#160;</td><td class="mdescRight">oldY  <a href="#a842a7ce1b21307287e434dd9d598eaee"></a><br/></td></tr>
+<tr class="memitem:a7338c5dde99c3d415665776d76c2d2db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#a7338c5dde99c3d415665776d76c2d2db">pionNum</a></td></tr>
+<tr class="memdesc:a7338c5dde99c3d415665776d76c2d2db"><td class="mdescLeft">&#160;</td><td class="mdescRight">pionNum  <a href="#a7338c5dde99c3d415665776d76c2d2db"></a><br/></td></tr>
+<tr class="memitem:ada2a7530bcff33b54aeb9b082a8d7bdb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classpion.html#ada2a7530bcff33b54aeb9b082a8d7bdb">w</a> = 35</td></tr>
+<tr class="memdesc:ada2a7530bcff33b54aeb9b082a8d7bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">w  <a href="#ada2a7530bcff33b54aeb9b082a8d7bdb"></a><br/></td></tr>
+</table>
+<a name="details" id="details"></a><h2>Description détaillée</h2>
+<div class="textblock">
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00005">5</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+</div><h2>Documentation des constructeurs et destructeur</h2>
+<a class="anchor" id="af29e3925ea85d612aea7e659254f401b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">pion::pion </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>noPion</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em> = <code>50</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em> = <code>50</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>pion </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td></td></tr>
+    <tr><td class="paramname">noPion</td><td></td></tr>
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Définition à la ligne <a class="el" href="pion_8cpp_source.html#l00008">8</a> du fichier <a class="el" href="pion_8cpp_source.html">pion.cpp</a>.</p>
+
+</div>
+</div>
+<h2>Documentation des fonctions membres</h2>
+<a class="anchor" id="a14da0a4cb182706ced199d4f8d61dcd9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pion::droits </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indice</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>droits </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indice</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Définition à la ligne <a class="el" href="pion_8cpp_source.html#l00210">210</a> du fichier <a class="el" href="pion_8cpp_source.html">pion.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe des appelants de cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classpion_a14da0a4cb182706ced199d4f8d61dcd9_icgraph.png" border="0" usemap="#classpion_a14da0a4cb182706ced199d4f8d61dcd9_icgraph" alt=""/></div>
+<map name="classpion_a14da0a4cb182706ced199d4f8d61dcd9_icgraph" id="classpion_a14da0a4cb182706ced199d4f8d61dcd9_icgraph">
+<area shape="rect" id="node3" href="classpion.html#a3d85aab7adc10d4a9cb7326c7a5e3466" title="mouseReleaseEvent" alt="" coords="143,5,316,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a28e0a7d35ac53067f27a00152f221b60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pion::mouseMoveEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>mouseMoveEvent </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ev</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Définition à la ligne <a class="el" href="pion_8cpp_source.html#l00039">39</a> du fichier <a class="el" href="pion_8cpp_source.html">pion.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a44680c9f0758100216aaf61f696f8cc5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pion::mousePressEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>mousePressEvent </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ev</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Définition à la ligne <a class="el" href="pion_8cpp_source.html#l00030">30</a> du fichier <a class="el" href="pion_8cpp_source.html">pion.cpp</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d85aab7adc10d4a9cb7326c7a5e3466"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pion::mouseReleaseEvent </td>
+          <td>(</td>
+          <td class="paramtype">QMouseEvent *&#160;</td>
+          <td class="paramname"><em>ev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>mouseReleaseEvent </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ev</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>XXX </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8cpp_source.html#l00100">100</a> du fichier <a class="el" href="pion_8cpp_source.html">pion.cpp</a>.</p>
+
+<p><div class="dynheader">
+Voici le graphe d'appel pour cette fonction :</div>
+<div class="dyncontent">
+<div class="center"><img src="classpion_a3d85aab7adc10d4a9cb7326c7a5e3466_cgraph.png" border="0" usemap="#classpion_a3d85aab7adc10d4a9cb7326c7a5e3466_cgraph" alt=""/></div>
+<map name="classpion_a3d85aab7adc10d4a9cb7326c7a5e3466_cgraph" id="classpion_a3d85aab7adc10d4a9cb7326c7a5e3466_cgraph">
+<area shape="rect" id="node3" href="classpion.html#a14da0a4cb182706ced199d4f8d61dcd9" title="droits" alt="" coords="231,5,316,35"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2>Documentation des données membres</h2>
+<a class="anchor" id="a99fe9f6343fa8261506fb5140ffd7dfa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool pion::aLeDroit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>aLeDroit </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00062">62</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7642cd4d43560d2fd90c33aa566d2526"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPoint pion::bonPoint</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>bonPoint </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00053">53</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a432598bfa12510f56629bb8e4e44a6d1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pion::h = 40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>h </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00070">70</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac953cdf61df0ff4b445b278e3be2bffc"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pion::oldX</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>oldX </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00041">41</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a842a7ce1b21307287e434dd9d598eaee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pion::oldY</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>oldY </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00045">45</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7338c5dde99c3d415665776d76c2d2db"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pion::pionNum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>pionNum </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00049">49</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ada2a7530bcff33b54aeb9b082a8d7bdb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pion::w = 35</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>w </p>
+
+<p>Définition à la ligne <a class="el" href="pion_8h_source.html#l00066">66</a> du fichier <a class="el" href="pion_8h_source.html">pion.h</a>.</p>
+
+</div>
+</div>
+<hr/>La documentation de cette classe a été générée à partir des fichiers suivants :<ul>
+<li>/home/arnaud/ptitCailloux/<a class="el" href="pion_8h_source.html">pion.h</a></li>
+<li>/home/arnaud/ptitCailloux/<a class="el" href="pion_8cpp_source.html">pion.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classpion.html">pion</a></li>
+    <li class="footer">Généré le Lundi Décembre 9 2013 17:35:21 pour Petit Cailloux par
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
+  </ul>
+</div>
+</body>
+</html>

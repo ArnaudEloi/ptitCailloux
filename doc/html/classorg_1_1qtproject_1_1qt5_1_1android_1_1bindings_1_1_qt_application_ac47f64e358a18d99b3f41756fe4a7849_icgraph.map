@@ -1,0 +1,6 @@
+<map id="org.qtproject.qt5.android.bindings.QtApplication.setQtActivityDelegate" name="org.qtproject.qt5.android.bindings.QtApplication.setQtActivityDelegate">
+<area shape="rect" id="node3" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa72e2a52d4667eac2de67b9148c5332b" title="org.qtproject.qt5.android.bindings.\lQtActivity.loadApplication" alt="" coords="285,39,504,86"/>
+<area shape="rect" id="node5" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a278365425c88a7b98bfcaf86b9a5a6ff" title="org.qtproject.qt5.android.bindings.\lQtActivity.startApp" alt="" coords="552,39,771,86"/>
+<area shape="rect" id="node7" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a4e9a7c6b28384e4d5f713462207ffc41" title="org.qtproject.qt5.android.bindings.\lQtActivity.onActivityResult" alt="" coords="819,5,1037,51"/>
+<area shape="rect" id="node9" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa826639406d6f0697e0f1afcf69c748c" title="org.qtproject.qt5.android.bindings.\lQtActivity.onCreate" alt="" coords="819,74,1037,121"/>
+</map>

@@ -1,0 +1,375 @@
+\hypertarget{class_main_window}{\section{Référence de la classe Main\-Window}
+\label{class_main_window}\index{Main\-Window@{Main\-Window}}
+}
+
+
+{\ttfamily \#include $<$mainwindow.\-h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_main_window_1_1h}{h}
+\begin{DoxyCompactList}\small\item\em This is the \hyperlink{class_main_window}{Main\-Window} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{Main\-Window} (Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_main_window}{Main\-Window}. \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_a191288a043481fa695e4e546e2f76038}{nouveau\-Jeu} ()
+\begin{DoxyCompactList}\small\item\em nouveau\-Jeu \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_aded5036dd1d5ab1c06417b80ce705aef}{restart} (int joueur\-Gagnant)
+\begin{DoxyCompactList}\small\item\em restart \end{DoxyCompactList}\item 
+void \hyperlink{class_main_window_aee18876c586f3b6c1f668a040c9145cf}{suis\-Je\-Gagnant} (int P1, int P2, int P3)
+\begin{DoxyCompactList}\small\item\em suis\-Je\-Gagnant \end{DoxyCompactList}\item 
+\hyperlink{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{$\sim$\-Main\-Window} ()
+\end{DoxyCompactItemize}
+\subsection*{Attributs publics}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_main_window_a86efc7c173a08f153d7c781a9bb7dfe0}{coof\-X}
+\begin{DoxyCompactList}\small\item\em coof\-X \end{DoxyCompactList}\item 
+double \hyperlink{class_main_window_a2f2474d5ae1f34d4800e8fb67cf609af}{coof\-Y}
+\begin{DoxyCompactList}\small\item\em coof\-Y \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_a7c53199a6fe3faad4ca98a78766a2863}{pos\-Ok}
+\begin{DoxyCompactList}\small\item\em pos\-Ok \end{DoxyCompactList}\item 
+int \hyperlink{class_main_window_a7b2b2add6bd8d72fb18f0f43c9998cb8}{tour\-Du\-Joueur} = 1
+\begin{DoxyCompactList}\small\item\em donne le tour du joueur. \end{DoxyCompactList}\item 
+bool \hyperlink{class_main_window_addef95af943f4874df6489bf08f2a516}{tous\-Sur\-Le\-Plateau}
+\begin{DoxyCompactList}\small\item\em tous\-Sur\-Le\-Plateau \end{DoxyCompactList}\item 
+int \hyperlink{class_main_window_a3356efaa3ec31594ed925406751cb1ab}{tout\-Placer} = 0
+\begin{DoxyCompactList}\small\item\em tout\-Placer \end{DoxyCompactList}\item 
+Ui\-::\-Main\-Window $\ast$ \hyperlink{class_main_window_a35466a70ed47252a0191168126a352a5}{ui}
+\item 
+Q\-Vector$<$ \hyperlink{classpion}{pion} $\ast$ $>$ \hyperlink{class_main_window_a972ef4345f96449207b78b25c170e0ba}{v\-Pion\-Pion}
+\begin{DoxyCompactList}\small\item\em vecteur qui contient les pions. \end{DoxyCompactList}\item 
+Q\-Vector$<$ Q\-Point $>$ \hyperlink{class_main_window_a8d561e817c4df106f2b54fe14d3e86f3}{v\-Pion\-Pos}
+\begin{DoxyCompactList}\small\item\em vecteur qui contient les positions des pions sur le plateau \end{DoxyCompactList}\item 
+Q\-Vector$<$ Q\-Point $>$ \hyperlink{class_main_window_a83813767ed28ca71358707f562095cf1}{v\-Pos}
+\begin{DoxyCompactList}\small\item\em vecteur qui contient les positions possibles sur le plateau \end{DoxyCompactList}\item 
+Q\-Vector$<$ bool $>$ \hyperlink{class_main_window_ad7397a5dbe03868a4b2502e0a993fcf4}{v\-Pos\-Libre}
+\begin{DoxyCompactList}\small\item\em vecteur qui contient dit si la position est libre ou non. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_main_window_a5214e7f990954599ef57d8b08ee3eea0}{creer\-Pions} ()
+\begin{DoxyCompactList}\small\item\em creer\-Pions \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+
+
+Définition à la ligne 15 du fichier mainwindow.\-h.
+
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\hypertarget{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}{\index{Main\-Window@{Main\-Window}!Main\-Window@{Main\-Window}}
+\index{Main\-Window@{Main\-Window}!MainWindow@{Main\-Window}}
+\subsubsection[{Main\-Window}]{\setlength{\rightskip}{0pt plus 5cm}Main\-Window\-::\-Main\-Window (
+\begin{DoxyParamCaption}
+\item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db}
+
+
+\hyperlink{class_main_window}{Main\-Window}. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+A\-N\-D\-R\-O\-I\-D
+
+X\-X\-X 
+
+Définition à la ligne 8 du fichier mainwindow.\-cpp.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_main_window_a8b244be8b7b7db1b08de2a2acb9409db_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}{\index{Main\-Window@{Main\-Window}!$\sim$\-Main\-Window@{$\sim$\-Main\-Window}}
+\index{$\sim$\-Main\-Window@{$\sim$\-Main\-Window}!MainWindow@{Main\-Window}}
+\subsubsection[{$\sim$\-Main\-Window}]{\setlength{\rightskip}{0pt plus 5cm}Main\-Window\-::$\sim$\-Main\-Window (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_ae98d00a93bc118200eeef9f9bba1dba7}
+
+
+Définition à la ligne 36 du fichier mainwindow.\-cpp.
+
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{class_main_window_a5214e7f990954599ef57d8b08ee3eea0}{\index{Main\-Window@{Main\-Window}!creer\-Pions@{creer\-Pions}}
+\index{creer\-Pions@{creer\-Pions}!MainWindow@{Main\-Window}}
+\subsubsection[{creer\-Pions}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::creer\-Pions (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_main_window_a5214e7f990954599ef57d8b08ee3eea0}
+
+
+creer\-Pions 
+
+
+
+Définition à la ligne 201 du fichier mainwindow.\-cpp.
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_main_window_a5214e7f990954599ef57d8b08ee3eea0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_main_window_a191288a043481fa695e4e546e2f76038}{\index{Main\-Window@{Main\-Window}!nouveau\-Jeu@{nouveau\-Jeu}}
+\index{nouveau\-Jeu@{nouveau\-Jeu}!MainWindow@{Main\-Window}}
+\subsubsection[{nouveau\-Jeu}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::nouveau\-Jeu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_a191288a043481fa695e4e546e2f76038}
+
+
+nouveau\-Jeu 
+
+
+
+Définition à la ligne 181 du fichier mainwindow.\-cpp.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_main_window_a191288a043481fa695e4e546e2f76038_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_main_window_aded5036dd1d5ab1c06417b80ce705aef}{\index{Main\-Window@{Main\-Window}!restart@{restart}}
+\index{restart@{restart}!MainWindow@{Main\-Window}}
+\subsubsection[{restart}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::restart (
+\begin{DoxyParamCaption}
+\item[{int}]{joueur\-Gagnant}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_aded5036dd1d5ab1c06417b80ce705aef}
+
+
+restart 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em joueur\-Gagnant} & \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 173 du fichier mainwindow.\-cpp.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{class_main_window_aded5036dd1d5ab1c06417b80ce705aef_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Voici le graphe des appelants de cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_main_window_aded5036dd1d5ab1c06417b80ce705aef_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_main_window_aee18876c586f3b6c1f668a040c9145cf}{\index{Main\-Window@{Main\-Window}!suis\-Je\-Gagnant@{suis\-Je\-Gagnant}}
+\index{suis\-Je\-Gagnant@{suis\-Je\-Gagnant}!MainWindow@{Main\-Window}}
+\subsubsection[{suis\-Je\-Gagnant}]{\setlength{\rightskip}{0pt plus 5cm}void Main\-Window\-::suis\-Je\-Gagnant (
+\begin{DoxyParamCaption}
+\item[{int}]{P1, }
+\item[{int}]{P2, }
+\item[{int}]{P3}
+\end{DoxyParamCaption}
+)}}\label{class_main_window_aee18876c586f3b6c1f668a040c9145cf}
+
+
+suis\-Je\-Gagnant 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em P1} & \\
+\hline
+{\em P2} & \\
+\hline
+{\em P3} & \\
+\hline
+\end{DoxyParams}
+
+
+Définition à la ligne 41 du fichier mainwindow.\-cpp.
+
+
+
+Voici le graphe d'appel pour cette fonction \-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_main_window_aee18876c586f3b6c1f668a040c9145cf_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Documentation des données membres}
+\hypertarget{class_main_window_a86efc7c173a08f153d7c781a9bb7dfe0}{\index{Main\-Window@{Main\-Window}!coof\-X@{coof\-X}}
+\index{coof\-X@{coof\-X}!MainWindow@{Main\-Window}}
+\subsubsection[{coof\-X}]{\setlength{\rightskip}{0pt plus 5cm}double Main\-Window\-::coof\-X}}\label{class_main_window_a86efc7c173a08f153d7c781a9bb7dfe0}
+
+
+coof\-X 
+
+
+
+Définition à la ligne 82 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a2f2474d5ae1f34d4800e8fb67cf609af}{\index{Main\-Window@{Main\-Window}!coof\-Y@{coof\-Y}}
+\index{coof\-Y@{coof\-Y}!MainWindow@{Main\-Window}}
+\subsubsection[{coof\-Y}]{\setlength{\rightskip}{0pt plus 5cm}double Main\-Window\-::coof\-Y}}\label{class_main_window_a2f2474d5ae1f34d4800e8fb67cf609af}
+
+
+coof\-Y 
+
+
+
+Définition à la ligne 87 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a7c53199a6fe3faad4ca98a78766a2863}{\index{Main\-Window@{Main\-Window}!pos\-Ok@{pos\-Ok}}
+\index{pos\-Ok@{pos\-Ok}!MainWindow@{Main\-Window}}
+\subsubsection[{pos\-Ok}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::pos\-Ok}}\label{class_main_window_a7c53199a6fe3faad4ca98a78766a2863}
+
+
+pos\-Ok 
+
+
+
+Définition à la ligne 67 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a7b2b2add6bd8d72fb18f0f43c9998cb8}{\index{Main\-Window@{Main\-Window}!tour\-Du\-Joueur@{tour\-Du\-Joueur}}
+\index{tour\-Du\-Joueur@{tour\-Du\-Joueur}!MainWindow@{Main\-Window}}
+\subsubsection[{tour\-Du\-Joueur}]{\setlength{\rightskip}{0pt plus 5cm}int Main\-Window\-::tour\-Du\-Joueur = 1}}\label{class_main_window_a7b2b2add6bd8d72fb18f0f43c9998cb8}
+
+
+donne le tour du joueur. 
+
+\begin{DoxyReturn}{Renvoie}
+le numéro du joueur.
+\end{DoxyReturn}
+variable contenant un entier correspondant au numéro du joueur dont c'est le tour. 
+
+Définition à la ligne 62 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_addef95af943f4874df6489bf08f2a516}{\index{Main\-Window@{Main\-Window}!tous\-Sur\-Le\-Plateau@{tous\-Sur\-Le\-Plateau}}
+\index{tous\-Sur\-Le\-Plateau@{tous\-Sur\-Le\-Plateau}!MainWindow@{Main\-Window}}
+\subsubsection[{tous\-Sur\-Le\-Plateau}]{\setlength{\rightskip}{0pt plus 5cm}bool Main\-Window\-::tous\-Sur\-Le\-Plateau}}\label{class_main_window_addef95af943f4874df6489bf08f2a516}
+
+
+tous\-Sur\-Le\-Plateau 
+
+
+
+Définition à la ligne 77 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a3356efaa3ec31594ed925406751cb1ab}{\index{Main\-Window@{Main\-Window}!tout\-Placer@{tout\-Placer}}
+\index{tout\-Placer@{tout\-Placer}!MainWindow@{Main\-Window}}
+\subsubsection[{tout\-Placer}]{\setlength{\rightskip}{0pt plus 5cm}int Main\-Window\-::tout\-Placer = 0}}\label{class_main_window_a3356efaa3ec31594ed925406751cb1ab}
+
+
+tout\-Placer 
+
+
+
+Définition à la ligne 72 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a35466a70ed47252a0191168126a352a5}{\index{Main\-Window@{Main\-Window}!ui@{ui}}
+\index{ui@{ui}!MainWindow@{Main\-Window}}
+\subsubsection[{ui}]{\setlength{\rightskip}{0pt plus 5cm}Ui\-::\-Main\-Window$\ast$ Main\-Window\-::ui}}\label{class_main_window_a35466a70ed47252a0191168126a352a5}
+
+
+Définition à la ligne 29 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a972ef4345f96449207b78b25c170e0ba}{\index{Main\-Window@{Main\-Window}!v\-Pion\-Pion@{v\-Pion\-Pion}}
+\index{v\-Pion\-Pion@{v\-Pion\-Pion}!MainWindow@{Main\-Window}}
+\subsubsection[{v\-Pion\-Pion}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Vector$<${\bf pion}$\ast$$>$ Main\-Window\-::v\-Pion\-Pion}}\label{class_main_window_a972ef4345f96449207b78b25c170e0ba}
+
+
+vecteur qui contient les pions. 
+
+
+
+Définition à la ligne 53 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a8d561e817c4df106f2b54fe14d3e86f3}{\index{Main\-Window@{Main\-Window}!v\-Pion\-Pos@{v\-Pion\-Pos}}
+\index{v\-Pion\-Pos@{v\-Pion\-Pos}!MainWindow@{Main\-Window}}
+\subsubsection[{v\-Pion\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Vector$<$Q\-Point$>$ Main\-Window\-::v\-Pion\-Pos}}\label{class_main_window_a8d561e817c4df106f2b54fe14d3e86f3}
+
+
+vecteur qui contient les positions des pions sur le plateau 
+
+
+
+Définition à la ligne 40 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_a83813767ed28ca71358707f562095cf1}{\index{Main\-Window@{Main\-Window}!v\-Pos@{v\-Pos}}
+\index{v\-Pos@{v\-Pos}!MainWindow@{Main\-Window}}
+\subsubsection[{v\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Vector$<$Q\-Point$>$ Main\-Window\-::v\-Pos}}\label{class_main_window_a83813767ed28ca71358707f562095cf1}
+
+
+vecteur qui contient les positions possibles sur le plateau 
+
+
+
+Définition à la ligne 34 du fichier mainwindow.\-h.
+
+\hypertarget{class_main_window_ad7397a5dbe03868a4b2502e0a993fcf4}{\index{Main\-Window@{Main\-Window}!v\-Pos\-Libre@{v\-Pos\-Libre}}
+\index{v\-Pos\-Libre@{v\-Pos\-Libre}!MainWindow@{Main\-Window}}
+\subsubsection[{v\-Pos\-Libre}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Vector$<$bool$>$ Main\-Window\-::v\-Pos\-Libre}}\label{class_main_window_ad7397a5dbe03868a4b2502e0a993fcf4}
+
+
+vecteur qui contient dit si la position est libre ou non. 
+
+\begin{DoxyReturn}{Renvoie}
+vrai si il n'y a pas de pions sur la position et faux si elle est occupé. 
+\end{DoxyReturn}
+
+
+Définition à la ligne 48 du fichier mainwindow.\-h.
+
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \-:\begin{DoxyCompactItemize}
+\item 
+/home/arnaud/ptit\-Cailloux/\hyperlink{mainwindow_8h}{mainwindow.\-h}\item 
+/home/arnaud/ptit\-Cailloux/\hyperlink{mainwindow_8cpp}{mainwindow.\-cpp}\end{DoxyCompactItemize}

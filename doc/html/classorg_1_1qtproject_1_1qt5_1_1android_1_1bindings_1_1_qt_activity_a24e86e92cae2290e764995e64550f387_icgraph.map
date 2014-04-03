@@ -1,0 +1,8 @@
+<map id="org.qtproject.qt5.android.bindings.QtActivity.copyFile" name="org.qtproject.qt5.android.bindings.QtActivity.copyFile">
+<area shape="rect" id="node3" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a59050af1b747e4f7e5d68f5627ae94c9" title="org.qtproject.qt5.android.bindings.\lQtActivity.copyAsset" alt="" coords="272,5,491,51"/>
+<area shape="rect" id="node13" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#abfd0a80966d866beca1cfc2bc0b07b29" title="org.qtproject.qt5.android.bindings.\lQtActivity.createBundledBinary" alt="" coords="272,74,491,121"/>
+<area shape="rect" id="node5" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a38024ae043417efcc1b79aec389042b0" title="org.qtproject.qt5.android.bindings.\lQtActivity.extractBundledPluginsAndImports" alt="" coords="540,39,820,86"/>
+<area shape="rect" id="node7" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a278365425c88a7b98bfcaf86b9a5a6ff" title="org.qtproject.qt5.android.bindings.\lQtActivity.startApp" alt="" coords="869,39,1088,86"/>
+<area shape="rect" id="node9" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#a4e9a7c6b28384e4d5f713462207ffc41" title="org.qtproject.qt5.android.bindings.\lQtActivity.onActivityResult" alt="" coords="1136,5,1355,51"/>
+<area shape="rect" id="node11" href="$classorg_1_1qtproject_1_1qt5_1_1android_1_1bindings_1_1_qt_activity.html#aa826639406d6f0697e0f1afcf69c748c" title="org.qtproject.qt5.android.bindings.\lQtActivity.onCreate" alt="" coords="1136,74,1355,121"/>
+</map>
